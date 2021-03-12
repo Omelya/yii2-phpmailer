@@ -1,7 +1,8 @@
 # PHPMailer адаптер для Yii2
 
-Почтовый сервис для Yii2, использующий в качестве транспорта [PHPMailer](https://github.com/PHPMailer/PHPMailer). В
-отличие от стандартного SwiftMailer, поддерживает отправку методом php-функции mail.
+Почтовый сервис для Yii2, использующий в качестве транспорта [PHPMailer](https://github.com/PHPMailer/PHPMailer).
+
+В отличие от стандартного SwiftMailer, поддерживает отправку методом php-функции mail.
 
 ## Настройка
 
