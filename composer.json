@@ -4,6 +4,12 @@
     "license": "MIT",
     "description": "Адаптер PHPMailer для Yii2",
     "keywords": ["omelya", "yii2", "phpmailer", "mail", "adaper"],
+    "authors": [
+        {
+            "name": "Vlad Omelianenko",
+            "email": "sekret.krut@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "dicr\\phpmailer\\": "src/"
