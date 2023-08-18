@@ -28,17 +28,22 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": "~7.4 || ~8.0.1",
+        "php": "^8.0 || ^8.1",
 
-        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2": "^2.0",
 
-        "phpmailer/phpmailer": "~v6.3"
+        "phpmailer/phpmailer": "^6.7"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
-        "phpunit/phpunit": "~9.5"
+        "phpunit/phpunit": "^10.3"
     },
     "repositories": [
         {"type": "composer", "url": "https://asset-packagist.org"}
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
 }
