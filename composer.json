@@ -1,21 +1,9 @@
 {
-    "name": "dicr/yii2-phpmailer",
+    "name": "omelya/yii2-phpmailer",
     "type": "yii2-extension",
     "license": "MIT",
-    "homepage": "https://gitlab.com/dicr/yii2-phpmailer",
     "description": "Адаптер PHPMailer для Yii2",
-    "keywords": ["dicr", "yii2", "phpmailer", "mail", "adaper"],
-    "authors": [
-        {
-            "name": "Igor Tarasov",
-            "email": "develop@dicr.org",
-            "homepage": "http://dicr.org",
-            "role": "developer"
-        }
-    ],
-    "support": {
-        "source": "https://gitlab.com/dicr/yii2-phpmailer.git"
-    },
+    "keywords": ["omelya", "yii2", "phpmailer", "mail", "adaper"],
     "autoload": {
         "psr-4": {
             "dicr\\phpmailer\\": "src/"
